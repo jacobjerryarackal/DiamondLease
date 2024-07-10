@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DiamondLease</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="social-icons">
+          <ul>
+            <li class="fa fa-facebook"></li>
+            <li class="fa fa-instagram"></li>
+            <li class="fa fa-reddit"></li>
+            <li class="fa fa-linkedin"></li>
+          </ul>
+        </div>
+        <div class="navbar" id="navbar">
+          <div class="logo-img">
+            <a href="">
+              <img src="images/Layer_1.png" alt="" />
+            </a>
+          </div>
+          <div class="nav-button">
+            <ul>
+              <li>About</li>
+              <li>Offers</li>
+              <li>Corporate</li>
+              <li>Personal</li>
+              <li>Locations</li>
+              <li>Contact Us</li>
+              <li class="fa fa-bell"></li>
+              <button class="profile">Jhon Doe</button>
+            </ul>
+          </div>
+          <div class="hamburger" id="hamburger">
+            <li class="fa fa-bars"></li>
+          </div>
+        </div>
+        <div class="nav-para">
+          <p>
+            Sunday Pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand
+            Sales Counters | All Rates inclusive of VAT. T&C’s apply | Follow us
+            on Social Media for New Offers
+          </p>
+        </div>
+      </nav>
+    </header>
+
+    <div class="home-container">
+      <section class="home" id="home">
+        <div class="home-content">
+          <div class="home-row1">
+            <a href="#" class="pick">Same as Pick-Up</a>
+            <a href="#" class="drop">Different Drop-Off</a>
+            <button>
+              Select Vehicle type
+              <select></select>
+            </button>
+          </div>
+          <div class="home-btns">
+            <button>
+              <i class="fa fa-map-marker"></i
+              ><span>
+                AI Quoz
+                <select></select
+              ></span>
+            </button>
+            <button>
+              <i class="fa fa-calendar"></i> 30/10/2023 <span>09:00 AM</span>
+            </button>
+            <button>
+              <i class="fa fa-calendar"></i> 29/11/2023 <span>09:00 AM</span>
+            </button>
+            <button>
+              <i class="fa fa-search" style="color: red; font-size: 24px"></i>
+            </button>
+            <div class="v1"></div>
+            <button class="quick">Quick Book</button>
+          </div>
+          <div class="home-row3">
+            <p>Download our App for easy accessibility anytime, anywhere!</p>
+            <div class="row3-img">
+              <img src="images/apple.png" />
+              <img src="images/googleplay.png" />
+            </div>
+          </div>
+        </div>
+        <div class="mobile-layout">
+          <div class="mobile-btns">
+            <button class="bcar">Book a Car</button>
+            <button class="qbook">Quick Book</button>
+          </div>
+
+          <div class="tab">
+            <a class="tablinks" onclick="openTab(event, 'Same as Pick-Up')"
+              ><span class="ss">Same as Pick-Up</span></a
+            >
+            <a class="tablinks" onclick="openTab(event, 'Different Drop-Off')"
+              ><span class="ss">Different Drop-Off</span></a
+            >
+            <a class="tablinks" onclick="openTab(event, 'Vechicle type')"
+              ><span class="ss">Vechicle type</span></a
+            >
+          </div>
+
+          <div id="Same as Pick-Up" class="tabcontent">
+            <button>
+              <i class="fa fa-map-marker"></i> <span>Pickup Location </span
+              ><select></select>
+            </button>
+            <button>
+              <i class="fa fa-calendar"></i><span> Pick-Up Date & Time </span>
+            </button>
+            <button>
+              <i class="fa fa-calendar"></i><span> Drop Off Date & Time </span>
+            </button>
+          </div>
+
+          <div id="Different Drop-Off" class="tabcontent">
+            <button>
+              <i class="fa fa-map-marker"></i><span> Pickup Location </span
+              ><select></select>
+            </button>
+            <button>
+              <i class="fa fa-map-marker"></i><span> Drop Off Location </span
+              ><select></select>
+            </button>
+            <button>
+              <i class="fa fa-calendar"></i><span> Pick-Up Date & Time </span>
+            </button>
+            <button>
+              <i class="fa fa-calendar"></i><span> Drop Off Date & Time </span>
+            </button>
+          </div>
+
+          <div class="home-search">
+            <button class="search">Search</button>
+          </div>
+        </div>
+
+        <div class="summer-content">
+          <img src="images/2018-Mitsubishi-ASX-1920x966 1.png" />
+        </div>
+      </section>
+    </div>
+
+    <div class="popular-container">
+      <section>
+        <div class="popular" id="popular">
+          <div class="popular-heading">
+            <h2>Most Popular Car</h2>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="image-container">
+                <img src="images/car1.png" alt="Description of image" />
+              </div>
+              <div class="text-container">
+                <h2>Mitsubishi Eclipse</h2>
+                <p>
+                  Eclipse Cross is a fusion of sharp coupe looks and dynamic SUV
+                  mobility with signature Mitsubishi styling, technology and
+                  driving confidence.
+                </p>
+                <div class="caritems">
+                  <ul>
+                    <li>
+                      <i class="fa fa-calendar"></i><span> 6 People </span>
+                    </li>
+                    <li>
+                      <i class="fa fa-calendar"></i><span> Automatic</span>
+                    </li>
+                    <li>
+                      <i class="fa fa-calendar"></i><span> 5 Doors </span>
+                    </li>
+                    <li><i class="fa fa-calendar"></i><span> AC </span></li>
+                  </ul>
+                </div>
+                <div class="carfees">
+                  <h3>AED 2700/ Monthly</h3>
+                  <button>Book Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image-container">
+                <img src="images/car2.png" alt="Description of image" />
+              </div>
+              <div class="text-container">
+                <h2>Jac J7</h2>
+                <p>
+                  S3 Plus has been rated Five-Star in C-NCAP including front
+                  impact, side impact, frontal side impact & Whipping test.
+                </p>
+                <div class="caritems">
+                  <ul>
+                    <li>
+                      <i class="fa fa-calendar"></i><span> 6 People </span>
+                    </li>
+                    <li>
+                      <i class="fa fa-calendar"></i><span> Automatic</span>
+                    </li>
+                    <li>
+                      <i class="fa fa-calendar"></i><span> 5 Doors </span>
+                    </li>
+                    <li><i class="fa fa-calendar"></i><span> AC </span></li>
+                  </ul>
+                </div>
+                <div class="carfees">
+                  <h3>AED 2700/ Monthly</h3>
+                  <button>Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="subscribe-container">
+      <section>
+        <div class="subscribe">
+          <div class="sbox">
+            <div class="stext-container">
+              <h2>Subscribe here for exclusive offers and updates!</h2>
+              <div class="subitems">
+                <input
+                  class="sint"
+                  type="text"
+                  name="first_name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  class="sint"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <p>
+                Don't miss out! Enter your email and your name, then hit
+                subscribe to unlock a world of special offers and details.
+              </p>
+              <div class="sub">
+                <button class="sbtn">Subscribe</button>
+              </div>
+            </div>
+
+            <div class="simage-container">
+              <div class="sub-container">
+                <div class="subimg">
+                  <img src="images/subimg.png" alt="Description of image" />
+                </div>
+                <div class="subcontent">
+                  <p>
+                    Enter your number and receive a direct link to download the
+                    app
+                  </p>
+                  <input
+                    class="subint"
+                    type="tel"
+                    name="phone_number"
+                    placeholder="Enter the Phone Number"
+                    required
+                  />
+                  <button class="subbtn">Get the Link</button>
+                  <h5>Get in on</h5>
+                  <div class="simg">
+                    <img src="images/app1.png" alt="App Store" />
+                    <img src="images/google1.png" alt="Google Play" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="rent-container">
+      <section>
+        <div class="rent">
+          <div class="rent-heading">
+            <h2>Rent/Lease In three easy steps</h2>
+          </div>
+          <div class="boxes1">
+            <div class="box1">
+              <img src="images/icon1.png" alt="Image 1" />
+              <p>
+                Select the location. Browse through our available options and
+                find the perfect car to suit your needs.
+              </p>
+            </div>
+            <div class="box1">
+              <img src="images/icon2.png" alt="Image 2" />
+              <p>Choose your desired Pick-Up date and time.</p>
+            </div>
+            <div class="box1">
+              <img src="images/icon3.png" alt="Image 3" />
+              <p>
+                Make payment and book the car. Select an option to either have
+                the car delivered to your location or pick it up directly from
+                us.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="locations-container">
+      <section>
+        <div class="location">
+          <div class="location-content">
+            <div class="lhead">
+              <h3>Locations</h3>
+            </div>
+            <div class="litems">
+              <ul>
+                <li><i class="fa fa-map-marker"></i><span> Dubai</span></li>
+                <div class="vl"></div>
+                <li><i class="fa fa-map-marker"></i><span> Abu Dhabi</span></li>
+                <div class="vl"></div>
+                <li><i class="fa fa-map-marker"></i><span> Sharjah</span></li>
+                <div class="vl"></div>
+                <li><i class="fa fa-map-marker"></i><span> Fujairah</span></li>
+                <div class="vl"></div>
+                <li>
+                  <i class="fa fa-map-marker"></i><span> Ras Al Khaimah</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="faq-container">
+      <section>
+        <div class="faq-heading">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="faq">
+          <button class="accordion">
+            What is my eligibility to book a car?
+            <i class="fa fa-plus"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              You should be of 18 years old above and you must possess a valid
+              driving license
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            Can i book for any period of time?
+            <i class="fa fa-plus"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              You should be of 18 years old above and you must possess a valid
+              driving license
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            Can i opt car for a longer period?
+            <i class="fa fa-plus"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              You should be of 18 years old above and you must possess a valid
+              driving license
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            Can i book one-way trip?
+            <i class="fa fa-plus"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              You should be of 18 years old above and you must possess a valid
+              driving license
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            Is there home delivery option available?
+            <i class="fa fa-plus"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              You should be of 18 years old above and you must possess a valid
+              driving license
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            How can i make the payment?
+            <i class="fa fa-plus"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              You should be of 18 years old above and you must possess a valid
+              driving license
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer-container">
+      <section class="footer">
+        <div class="footer1">
+          <div class="footer-content">
+            <div class="footerimg">
+              <img src="images/footerlogo.png" alt="" />
+              <p>Member of the Al Habtoor Group</p>
+            </div>
+          </div>
+
+          <div class="footer-content">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+            <li class="item1">Al Harbtoor Companies</li>
+            <div class="footerb">
+              <li>Hospitality</li>
+              <li>Real Estate</li>
+              <li>Education</li>
+              <li>Publishing</li>
+              <li>Automotive</li>
+              <li>Vehicle</li>
+            </div>
+          </div>
+
+          <div class="footer-content">
+            <li>Offers</li>
+            <li>Locations</li>
+            <li>Contact Us</li>
+          </div>
+
+          <div class="footer-content">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Services</li>
+          </div>
+
+          <div class="footer-content">
+            <li>Careers</li>
+            <li class="item1">Terms & Conditions</li>
+          </div>
+
+          <div class="footer-content">
+            <li>FOLLOW US ON</li>
+            <div class="footericons">
+              <li><i class="fa fa-facebook"></i></li>
+              <li><i class="fa fa-reddit"></i></li>
+              <li><i class="fa fa-instagram"></i></li>
+              <li><i class="fa fa-linkedin"></i></li>
+              <li><i class="fa fa-youtube"></i></li>
+            </div>
+            <div class="footerimages">
+              <img src="images/footerimg.png" alt="" />
+              <img src="images/footerimg2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="hr"></div>
+        <div class="footer-last">
+          <p>© 2018 Diamondlease LLC - All Rights Reserved.</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
